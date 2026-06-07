@@ -1,0 +1,8 @@
+{
+    "phase": "Phase 8 - Customer 360 Decision Engine",
+    "customers_scored": 9898,
+    "total_revenue_at_risk": 2465374.374957785,
+    "avg_churn_probability": 0.7628917303572739,
+    "avg_predicted_ltv": 333.30594175207784,
+    "actions_generated": 7
+}
