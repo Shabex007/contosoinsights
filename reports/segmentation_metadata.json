@@ -1,0 +1,19 @@
+{
+    "phase": "Phase 7 - ML Customer Segmentation",
+    "algorithm": "KMeans",
+    "best_k": 2,
+    "features_used": [
+        "recency_days",
+        "frequency",
+        "monetary_value",
+        "total_revenue",
+        "avg_order_value",
+        "customer_tenure_days",
+        "unique_products_bought",
+        "unique_categories_bought",
+        "purchase_velocity_orders_per_year",
+        "gross_margin_pct"
+    ],
+    "segment_count": 2,
+    "total_customers": 49487
+}
