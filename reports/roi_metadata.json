@@ -1,0 +1,40 @@
+{
+    "phase": "Phase 9 - ROI Calculator",
+    "customers_scored": 9898,
+    "campaigns": 7,
+    "total_revenue_at_risk": 2465374.3749577855,
+    "total_expected_saved_revenue": 511088.9379999388,
+    "total_campaign_cost": 48393.0,
+    "total_net_roi": 462695.93799993873,
+    "overall_roi_multiple": 10.561216250282866,
+    "campaign_assumptions": {
+        "Immediate VIP Retention Outreach": {
+            "cost_per_customer": 100,
+            "retention_success_rate": 0.35
+        },
+        "Personalized Win-Back Offer": {
+            "cost_per_customer": 50,
+            "retention_success_rate": 0.25
+        },
+        "Targeted Discount Campaign": {
+            "cost_per_customer": 20,
+            "retention_success_rate": 0.18
+        },
+        "Email Re-Engagement Campaign": {
+            "cost_per_customer": 2,
+            "retention_success_rate": 0.05
+        },
+        "Low-Cost Re-Activation Email": {
+            "cost_per_customer": 1,
+            "retention_success_rate": 0.03
+        },
+        "VIP Loyalty / Upsell Program": {
+            "cost_per_customer": 75,
+            "retention_success_rate": 0.2
+        },
+        "Standard Lifecycle Marketing": {
+            "cost_per_customer": 1,
+            "retention_success_rate": 0.02
+        }
+    }
+}
