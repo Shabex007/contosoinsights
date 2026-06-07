@@ -1,0 +1,198 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# IDEs
+
+# =========================
+
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+
+# Jupyter Notebooks
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Build / Distribution
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+
+# Testing
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+
+# Database Files
+
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+
+# Data Files
+
+# =========================
+
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+
+# ML Models
+
+# =========================
+
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+models/*.onnx
+
+# Keep model folder
+
+!models/.gitkeep
+
+# =========================
+
+# Experiment Tracking
+
+# =========================
+
+mlruns/
+wandb/
+lightning_logs/
+
+# =========================
+
+# Reports / Generated Outputs
+
+# =========================
+
+reports/generated/*
+outputs/*
+results/*
+
+# Keep folders
+
+!reports/generated/.gitkeep
+
+# =========================
+
+# Streamlit
+
+# =========================
+
+.streamlit/secrets.toml
+
+# =========================
+
+# Cache Files
+
+# =========================
+
+.cache/
+*.cache
+
+# =========================
+
+# Temporary Files
+
+# =========================
+
+tmp/
+temp/
+*.tmp
+
+# =========================
+
+# Large Export Files
+
+# =========================
+
+*.csv
+*.parquet
+*.feather
+
+# Allow sample datasets
+
+!sample_data/
+!sample_data/**
