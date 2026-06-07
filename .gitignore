@@ -115,6 +115,15 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+data/features/*
+!data/features/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+
+*.pkl
+*.joblib
+
 # =========================
 
 # ML Models

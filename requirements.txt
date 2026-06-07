@@ -8,3 +8,5 @@ jupyter>=1.0.0
 matplotlib>=3.7.0
 seaborn
 tabulate
+scikit-learn>=1.5.0
+joblib>=1.4.0
