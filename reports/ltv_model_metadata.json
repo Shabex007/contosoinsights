@@ -1,0 +1,19 @@
+{
+    "phase": "Phase 6 - LTV Prediction",
+    "target_column": "future_6m_revenue",
+    "best_model_name": "random_forest_regressor",
+    "train_rows": 39589,
+    "test_rows": 9898,
+    "feature_count": 46,
+    "target_mean_train": 168.25064681543762,
+    "target_mean_test": 171.6188901207047,
+    "target_nonzero_rate_train": 0.06481598423804592,
+    "target_nonzero_rate_test": 0.06769044251363912,
+    "best_model_metrics": {
+        "model_name": "random_forest_regressor",
+        "mae": 174.6234456410717,
+        "rmse": 897.1101296609726,
+        "r2": 0.3845980449596078,
+        "mape_nonzero_actuals": 3.472935218872901
+    }
+}
