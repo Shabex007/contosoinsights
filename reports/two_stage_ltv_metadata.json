@@ -1,0 +1,28 @@
+{
+    "phase": "Phase 6B - Two Stage LTV Prediction",
+    "stage1_target": "will_generate_future_revenue",
+    "stage2_target": "future_6m_revenue",
+    "best_stage1_model": "ltv_stage1_random_forest",
+    "best_stage2_model": "ltv_stage2_ridge_regression",
+    "train_rows": 39589,
+    "test_rows": 9898,
+    "feature_count": 46,
+    "train_spender_rate": 0.0653969536992599,
+    "test_spender_rate": 0.06536674075570822,
+    "train_future_revenue_mean": 165.47877397644586,
+    "test_future_revenue_mean": 182.7055413454819,
+    "stage1_best_metrics": {
+        "model_name": "ltv_stage1_random_forest",
+        "accuracy": 0.9339260456657911,
+        "precision": 0.4972155926809865,
+        "recall": 0.9659969088098919,
+        "f1": 0.6565126050420168,
+        "roc_auc": 0.9912166227236053
+    },
+    "stage2_best_metrics": {
+        "model_name": "ltv_stage2_ridge_regression",
+        "mae": 1788.9625078018037,
+        "rmse": 2932.345051257566,
+        "r2": 0.45951650980591496
+    }
+}
