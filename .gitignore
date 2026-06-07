@@ -139,6 +139,9 @@ models/*.onnx
 # Keep model folder
 
 !models/.gitkeep
+models/*.pkl
+models/*.joblib
+data/predictions/*.csv
 
 # =========================
 

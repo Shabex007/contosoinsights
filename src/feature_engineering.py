@@ -48,7 +48,6 @@ DROP_COLUMNS = (
 BASE_NUMERIC_FEATURES = [
     "age",
     "cohort_year",
-    "recency_days",
     "customer_tenure_days",
     "frequency",
     "total_order_lines",
