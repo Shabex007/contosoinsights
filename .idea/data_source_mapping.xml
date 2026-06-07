@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/1_customer_segmentation.sql" value="6e6f9ba6-194c-4b39-a70e-912db5dbbed8" />
+    <file url="file://$PROJECT_DIR$/sql/4_customer_ml_features.sql" value="6e6f9ba6-194c-4b39-a70e-912db5dbbed8" />
+    <file url="file://$PROJECT_DIR$/sql/5_validate_customer_ml_features.sql" value="6e6f9ba6-194c-4b39-a70e-912db5dbbed8" />
+  </component>
+</project>
